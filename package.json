@@ -1,0 +1,42 @@
+{
+  "name": "npm-issue-3958-workaround",
+  "description": "An attempt to work around npm issue 3958",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cowboy/node-npm-issue-3958-workaround",
+  "author": {
+    "name": "\"Cowboy\" Ben Alman",
+    "url": "http://benalman.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cowboy/node-npm-issue-3958-workaround.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cowboy/node-npm-issue-3958-workaround/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/cowboy/node-npm-issue-3958-workaround/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bin": "bin/npm-issue-3958-workaround",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "npm",
+    "hack",
+    "workaround",
+    "issue",
+    "3958"
+  ],
+  "dependencies": {
+    "rimraf": "~2.2.5"
+  }
+}
