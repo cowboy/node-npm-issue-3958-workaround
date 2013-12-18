@@ -5,8 +5,10 @@
 
 ## Documentation
 
-1. Install the module with: `npm install --save-dev npm-issue-3958-workaround`
-1. Add it to your project's `package.json` file as an `install` script, like so:
+Add `npm-issue-3958-workaround` to your project's `package.json` file like so:
+
+* Under `devDependencies`.
+* As an `install` script.
 
 ```json
 {
@@ -18,7 +20,7 @@
   "devDependencies": {
     "npm-issue-3958-workaround": "~0.1.0",
     "something-that-lists-your-project-as-a-peerdependency": "*"
-  },
+  }
 }
 ```
 
